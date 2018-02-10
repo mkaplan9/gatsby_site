@@ -2,7 +2,7 @@ module.exports = {
   blogPostDir: "sample-posts", // The name of directory that contains your posts.
   siteTitle: "Max Kaplan", // Site title.
   siteTitleAlt: "Max Kaplan", // Alternative site title for SEO.
-  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
+  siteLogo: "/assets/favicon.ico", // Logo used for SEO and manifest.
   siteUrl: "https://mkaplan9.github.io/", // Domain of your website without pathPrefix.
   pathPrefix: "/gatsby-material-starter", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
@@ -12,7 +12,7 @@ module.exports = {
   postDefaultCategoryID: "Projects", // Default category for posts.
   userName: "mkaplan9", // Username to display in the author segment.
   userLocation: "Baltimore, MD", // User location to display in the author segment.
-  userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
+  userAvatar: "/assets/MaxHeadshot.jpg", // User avatar to display in the author segment.
   userDescription: "", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
