@@ -8,7 +8,7 @@ module.exports = {
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "Max Kaplan", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteGATrackingID: "UA-47311644-4", // Tracking code ID for google analytics.
+  siteGATrackingID: "UA-96544641-1", // Tracking code ID for google analytics.
   postDefaultCategoryID: "Projects", // Default category for posts.
   userName: "mkaplan9", // Username to display in the author segment.
   userLocation: "Baltimore, MD", // User location to display in the author segment.
@@ -27,5 +27,5 @@ module.exports = {
       iconClassName: "fa fa-linkedin"
     }
   ],
-  copyright: "Copyright © 2018 Max Kaplan" // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2018 Max Kaplan" // Copyright string for the footer of the website
 };
