@@ -14,7 +14,7 @@ export default class MainLayout extends React.Component {
     const pathPrefix = config.pathPrefix ? config.pathPrefix : "/";
     const currentPath = this.props.location.pathname
       .replace(pathPrefix, "")
-      .replace("/", "");
+      .replace(/\//g, "");
     let title = "";
     if (currentPath === "") {
       title = "Max Kaplan";
